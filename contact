@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Vasilii Temnica
+N:Temnica;Vasilii;;;
+EMAIL;TYPE=INTERNET;TYPE=HOME:vasili@temnica.com
+EMAIL;TYPE=INTERNET;TYPE=WORK:vasilii@temnica.com
+TEL;TYPE=CELL:+38975290350
+ADR;TYPE=HOME:;;65 Ilinden Blvd.\n1000\nNORTH MACEDONIA;Skopje;;;
+ADR;TYPE=WORK:;;65 Ilinden Blvd.\n1000\nNORTH MACEDONIA;Skopje;;;
+URL:http\://vasilii.temnica.com
+ORG:Ilindenska 65
+TITLE:Storyteller
+BDAY:1980-09-12
+X-FACEBOOK:https\://www.facebook.com/vasilii.temnica
+REV:2021-01-02T17:07:00Z
+END:VCARD
