@@ -1,0 +1,40 @@
+@font-face {
+    font-family:"WiredMono";
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+    src:url(fonts/WiredMono-Bold.woff2) format("woff2"),
+        url(fonts/WiredMono-Bold.woff) format("woff")
+}
+
+@font-face{font-family:"WiredMono";
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    src:url(fonts/WiredMono-Regular.woff2) format("woff2"),
+        url(fonts/WiredMono-Regular.woff) format("woff"),
+}
+
+
+html {
+    background-color: #000000ee; 
+}
+
+body {
+    color:#ffffffcc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "WiredMono";
+    font-variant-caps: small-caps;
+    font-weight: 700;
+}
+
+span {
+    font-weight:400;
+    color: #a8071ecc;
+    padding: 0 0.5em;
+}
