@@ -1,3 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    /* user-select: none !important; */
+}
+
+@keyframes turn-tao {
+    0% {
+        background-color: black;
+    }
+    50% {
+        background-color: black;
+    }
+    60% {
+        background-color: white;
+    }
+    100% {
+        background-image: url("images/tao.jpeg");
+    }
+}
+
+
+body {
+    
+    background-position-x: 0pt;
+    background-position: center;
+    animation: turn-tao 10s;
+    animation-fill-mode: forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffffcc;
+}
+
 @font-face {
     font-family: "WiredMono";
     font-weight: 700;
@@ -22,32 +57,20 @@
     src: url(fonts/WiredMono-Light.woff2) format("woff2")
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    user-select: none !important;
-}
-
-html {
-    background-color: #fff; 
-}
-
-body {
-    background-color: #000000ee; 
-    color: #ffffffcc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 h1 {
     font-family: "WiredMono";
     font-variant-caps: small-caps;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+h1::selection {
+    color: #000;
+    font-weight: 700;
 }
 
 span {
     font-weight: 400;
     color: #a8071ecc;
     padding: 0 0.5em;
+    user-select: none !important;
 }
