@@ -26,9 +26,7 @@
 
 
 body {
-    
-    background-position-x: 0pt;
-    background-position: center;
+    background-position: -8px;
     animation: turn-tao 10s;
     animation-fill-mode: forwards;
     display: flex;
