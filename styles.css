@@ -21,6 +21,7 @@
     }
     100% {
         background-image: url("images/tao.png");
+        background-repeat: no-repeat;
     }
 }
 
@@ -70,9 +71,17 @@ h1::selection {
     font-weight: 700;
 }
 
-span {
+span, a {
     font-weight: 400;
     color: #a8071ecc;
     padding: 0 0.5em;
     user-select: none !important;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-underline-offset: 0.25em;
+    text-decoration-style: dashed;
 }
