@@ -20,7 +20,7 @@
         background-color: white;
     }
     100% {
-        background-image: url("images/tao.png");
+        background-image: url("images/tao.svg");
         background-repeat: no-repeat;
     }
 }
