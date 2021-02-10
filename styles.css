@@ -25,15 +25,17 @@
     }
 }
 
-
 body {
     background-position: center;
-    animation: turn-tao 10s;
-    animation-fill-mode: forwards;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffffffcc;
+}
+
+body#mind {
+    animation: turn-tao 10s;
+    animation-fill-mode: forwards;
 }
 
 @font-face {
@@ -84,4 +86,12 @@ a:hover {
     text-decoration-color: black;
     text-underline-offset: 0.25em;
     text-decoration-style: dashed;
+}
+
+a#stars:hover {
+    cursor: grab;
+}
+
+a#com:hover {
+    cursor: no-drop;
 }
