@@ -73,7 +73,7 @@ h1::selection {
 
 span, a {
     font-weight: 400;
-    color: #a8071ecc;
+    color: #a8071ed0;
     padding: 0 0.5em;
     user-select: none !important;
     text-decoration: none;
